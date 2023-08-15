@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 12px 5px 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /*background-color: #101049bf;*/
+    background-color: #061429;
+}
+
+.logo {
+    width: 200px;
+    color: white;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu li a:hover {
+    color: #FFF;
+    background-color:#006400;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.form-wrapper {
+    /* padding: 7px; */
+    border: 10px solid #061429;
+    border-radius:12px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*background-color:#061429;*/
+    background-color:#061429;
+}
+
+.social-media {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+}
+
+.icons li {
+    margin-right: 10px;
+}
+
+.icons li img {
+    width: 32px;
+    color:antiquewhite;
+}
+
+.copy-right {
+    font-family: 'Tajawal', sans-serif;
+}
